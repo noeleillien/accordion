@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Accordian attempt</title>
+
+
+		<link rel="stylesheet" href="js/jquery-ui.min.css">
+		<link rel="stylesheet" href="js/jquery-ui.structure.min.css">
+		<link rel="stylesheet" href="js/jquery-ui.theme.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<script>
+  			$(function() {
+    		$( "#accordion" ).accordion({
+    			header: "h3"
+  			});
+  		</script>
+
+	</head>
+	<body>
+
+		<div id="accordion">
+  			<h3>Chinese Restaurants<br><img src="imgs/india.png" /></h3>
+  			<div>This will have extra information in it explaining the graph of the particlar ethnic restaurant. The above header will end up being larger to have the appropriate graph in it too.</div>
+  			<h3 style="strong">Indian Restaurants<br><img src="imgs/china.png" /></h3>
+  			<div>This will have extra information in it explaining the graph of the particlar ethnic restaurant. The above header will end up being larger to have the appropriate graph in it too.</div>
+  			<h3>Middle Eastern Restaurants<br><img src="imgs/middle.png" /></h3>
+  			<div>This will have extra information in it explaining the graph of the particlar ethnic restaurant. The above header will end up being larger to have the appropriate graph in it too.</div>
+		</div>
+
+
+		<div class="js-slider"></div>
+
+		<div class="bubble js-bubble"></div>
+
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
